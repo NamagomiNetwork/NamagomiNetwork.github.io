@@ -7,7 +7,7 @@
   - [`check <ユーザーID|ユーザーメンション>`](#check-ユーザーidユーザーメンション)
   - [`shutdown`](#shutdown)
   - [`reset-tawasi <ユーザーID>`](#reset-tawasi-ユーザーid)
-  - [`prefix-rest <ユーザーID>`](#prefix-rest-ユーザーid)
+  - [`prefix-reset <ユーザーID>`](#prefix-reset-ユーザーid)
   - [`block <ユーザーID>`](#block-ユーザーid)
   - [`unblock <ユーザーID>`](#unblock-ユーザーid)
   - [`hardblock <ユーザーID>`](#hardblock-ユーザーid)
@@ -38,9 +38,10 @@ Namagomi-botをシャットダウンします。
 
 ユーザーの1日1たわしをリセットします。
 
-## `prefix-rest <ユーザーID>`
+## `prefix-reset <ユーザーID>`
 
 コマンドの接頭辞設定をリセットします。
+
 Namagomi-botの`config.json`により設定されている接頭辞設定が反映されます。
 
 
