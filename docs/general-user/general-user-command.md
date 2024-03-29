@@ -19,6 +19,7 @@
     - [`one-day-tawasi`](#one-day-tawasi)
     - [`profile-update`](#profile-update)
     - [`set-prefix <設定したいprefix>`](#set-prefix-設定したいprefix)
+    - [`set-twitter-url-show <true|false>`](#set-twitter-url-show-truefalse)
   - [管理系](#管理系)
 
 ---
@@ -91,6 +92,11 @@ Namagomi-botのライセンスを表示します。
 
 コマンドの接頭辞を設定します。
 本コマンドを実施したユーザーのみコマンドの接頭辞設定が反映されます。
+
+### `set-twitter-url-show <true|false>`
+
+Twitter投稿展開機能のON/OFFを設定します。
+
 
 ## 管理系
 
