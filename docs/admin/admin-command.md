@@ -12,6 +12,7 @@
   - [`unblock <ユーザーID>`](#unblock-ユーザーid)
   - [`hardblock <ユーザーID>`](#hardblock-ユーザーid)
   - [`unhardblock <ユーザーID>`](#unhardblock-ユーザーid)
+  - [`deploy`](#deploy)
 
 
 ## `eval <評価したいJavaScriptコード>`
@@ -62,3 +63,9 @@ Namagomi-botの`config.json`により設定されている接頭辞設定が反�
 ## `unhardblock <ユーザーID>`
 
 ユーザーのハードブロックを解除します。
+
+## `deploy`
+
+`git pull origin main`を実行します。
+
+`g!shell git pull origin main`を簡便にした、エイリアスコマンド
